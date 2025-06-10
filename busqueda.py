@@ -4,11 +4,12 @@ import time
 def busqueda_lineal(lista, objetivo):
     for producto in lista:
         if producto[0] == objetivo:
-            return producto
-    return None
+            return producto # Si encontramos el producto, lo devolvemos
+    return None # Si no se encuentra el producto, devolvemos None
 
 def busqueda_binaria(lista, objetivo):
-    inicio, fin = 0, len(lista) - 1
+    # Aseguramos que la lista esté ordenada para la búsqueda binaria
+    inicio, fin = 0, len(lista) - 1 
     while inicio <= fin:
         medio = (inicio + fin) // 2
         if lista[medio][0] == objetivo:
@@ -17,7 +18,7 @@ def busqueda_binaria(lista, objetivo):
             inicio = medio + 1
         else:
             fin = medio - 1
-    return None
+    return None # Si no se encuentra el producto, devolvemos None
 
 # Lista de productos base
 productos_base = ["Auriculares", "Celular", "Laptop", "Monitor", "Mouse", "Teclado", "Tablet"]
