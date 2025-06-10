@@ -18,6 +18,7 @@ Este repositorio contiene la implementación de diversos algoritmos de ordenamie
 - Desarrollar una documentación clara y estructurada para el repositorio.
 
 ## 📝 Contenido del Repositorio
+- `Documentos/`: Documentación del proyecto.
 - `ordenamiento.py`: Implementaciones de algoritmos como Bubble Sort, Merge Sort, Quick Sort, Selection Sort e Insertion Sort.
 - `busqueda.py`: Algoritmos de búsqueda como Binary Search y Linear Search.
 
