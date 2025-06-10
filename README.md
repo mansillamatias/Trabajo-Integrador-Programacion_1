@@ -25,7 +25,7 @@ Este repositorio contiene la implementación de diversos algoritmos de ordenamie
 ## 🚀 Cómo ejecutar el proyecto
 1. Clonar el repositorio:
    ```bash
-   git clone https://github.com/tu_usuario/tu_repositorio.git
+   git clone https://github.com/mansillamatias/Trabajo-Integrador-Programacion_1.git
 
 ## 🎥 Video Explicativo
-El video donde se presenta y explica el desarrollo del proyecto se encuentra disponible en el siguiente enlace: 🔗 Video Explicativo en YouTube
+El video donde se presenta y explica el desarrollo del proyecto se encuentra disponible en el siguiente enlace: https://www.youtube.com/watch?v=Sq9Lz8gyabk
